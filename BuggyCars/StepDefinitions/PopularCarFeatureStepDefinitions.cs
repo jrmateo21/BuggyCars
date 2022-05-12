@@ -130,7 +130,7 @@ namespace BuggyCars.StepDefinitions
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            //loginPageObject.LogInStepsDataDriven(driver, p0, p1);
+            loginPageObject.LogInStepsDataDriven(driver, p0, p1);
 
         }
 
